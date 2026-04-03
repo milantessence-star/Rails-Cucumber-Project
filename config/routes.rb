@@ -20,4 +20,5 @@ Rails.application.routes.draw do
 
   get '/dashboard', to: 'dashboard#index',  as: :dashboard  # admin
   get '/home',      to: 'home#index',       as: :home       # user
+  resources :users
 end
