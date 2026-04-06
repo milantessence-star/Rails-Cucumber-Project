@@ -8,3 +8,5 @@ Rails.application.load_tasks
 Rails.logger.error "Hello world.!"
 
 puts "Hello world.!"
+
+hello
